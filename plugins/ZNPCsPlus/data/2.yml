@@ -1,0 +1,19 @@
+id: '2'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 233b4803-8729-4ef9-a8e8-5a031991ebce
+world: lobby
+location:
+  x: -11.5
+  y: 40.0
+  z: -35.5
+  yaw: -5.5594482
+  pitch: 13.350029
+type: piglin_brute
+properties:
+  look: CLOSEST_PLAYER
+hologram:
+  lines: []
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;c2hvcA==;1000;ANY_CLICK;0

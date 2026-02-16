@@ -1,0 +1,34 @@
+menu_title: "Server Warps"
+open_command:
+  - warp
+  - warps
+size: 27
+items:
+  'warp_lobby':
+    display_name: "&e&lLOBBY"
+    material: NETHER_STAR
+    slot: 10
+    lore:
+      - " "
+      - "&fReturn to the main spawn point"
+      - "&fand meet with other players."
+    left_click_commands:
+      - "[player] warp lobby"
+      - "[close]"
+    right_click_commands:
+      - "[player] warp lobby"
+      - "[close]"
+  'warp_pvp':
+    display_name: "&c&lPVP"
+    material: IRON_SWORD
+    slot: 12
+    lore:
+      - " "
+      - "&fEnter the arena to test your"
+      - "&fskills against other warriors."
+    left_click_commands:
+      - "[player] warp pvp"
+      - "[close]"
+    right_click_commands:
+      - "[player] warp pvp"
+      - "[close]"

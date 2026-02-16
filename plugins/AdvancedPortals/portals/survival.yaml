@@ -1,0 +1,17 @@
+args:
+  name:
+  - survival
+  triggerblock:
+  - NETHER_PORTAL
+  command:
+  - 'rtp world world'
+maxLoc:
+  posX: 1
+  posY: 43
+  posZ: -33
+  worldName: lobby
+minLoc:
+  posX: -1
+  posY: 39
+  posZ: -33
+  worldName: lobby

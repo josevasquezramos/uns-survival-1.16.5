@@ -1,0 +1,20 @@
+id: '1'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 645f7922-6eb1-47eb-a8d4-59f84abc5055
+world: lobby
+location:
+  x: -7.5
+  y: 40.0
+  z: -32.5
+  yaw: -15.906891
+  pitch: 8.400014
+type: villager
+properties:
+  look: CLOSEST_PLAYER
+  villager_profession: ARMORER
+hologram:
+  lines: []
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;am9icyBicm93c2U=;1000;ANY_CLICK;0

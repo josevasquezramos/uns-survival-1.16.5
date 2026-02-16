@@ -1,0 +1,12 @@
+location: lobby:0.500:43.000:-30.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lUNS &6Survival'
+    height: 0.3
+  actions: {}

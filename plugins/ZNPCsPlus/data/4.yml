@@ -1,0 +1,19 @@
+id: '4'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: c04ff3ca-b761-42dd-957b-b7032dfeee40
+world: lobby
+location:
+  x: 8.5
+  y: 40.0
+  z: -32.5
+  yaw: -152.71155
+  pitch: 3.4499855
+type: witch
+properties:
+  look: CLOSEST_PLAYER
+hologram:
+  lines: []
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiB3YXJwcyB7cGxheWVyfQ==;1000;ANY_CLICK;0

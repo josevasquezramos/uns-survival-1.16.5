@@ -1,0 +1,72 @@
+menu_title: "Protection Stones"
+open_command:
+  - protections
+size: 27
+items:
+  'block_1':
+    display_name: "&7&lCOAL PROTECTION"
+    material: COAL_ORE
+    slot: 10
+    lore:
+      - ""
+      - "&fProtects a &b4 block &fradius zone."
+      - "&fPrice: &a$2,500"
+      - ""
+      - "&eClick to purchase this block."
+    left_click_commands:
+      - "[player] ps get 4"
+      - "[close]"
+    right_click_commands:
+      - "[player] ps get 4"
+      - "[close]"
+
+  'block_2':
+    display_name: "&f&lIRON PROTECTION"
+    material: IRON_ORE
+    slot: 12
+    lore:
+      - ""
+      - "&fProtects a &b8 block &fradius zone."
+      - "&fPrice: &a$10,000"
+      - ""
+      - "&eClick to purchase this block."
+    left_click_commands:
+      - "[player] ps get 8"
+      - "[close]"
+    right_click_commands:
+      - "[player] ps get 8"
+      - "[close]"
+
+  'block_3':
+    display_name: "&6&lGOLD PROTECTION"
+    material: GOLD_ORE
+    slot: 14
+    lore:
+      - ""
+      - "&fProtects a &b16 block &fradius zone."
+      - "&fPrice: &a$40,000"
+      - ""
+      - "&eClick to purchase this block."
+    left_click_commands:
+      - "[player] ps get 16"
+      - "[close]"
+    right_click_commands:
+      - "[player] ps get 16"
+      - "[close]"
+
+  'block_4':
+    display_name: "&b&lDIAMOND PROTECTION"
+    material: DIAMOND_ORE
+    slot: 16
+    lore:
+      - ""
+      - "&fProtects a &b32 block &fradius zone."
+      - "&fPrice: &a$160,000"
+      - ""
+      - "&eClick to purchase this block."
+    left_click_commands:
+      - "[player] ps get 32"
+      - "[close]"
+    right_click_commands:
+      - "[player] ps get 32"
+      - "[close]"
