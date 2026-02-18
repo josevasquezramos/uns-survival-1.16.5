@@ -14,9 +14,9 @@ regions:
         min: {x: -106, y: 0, z: -115}
         max: {x: 114, y: 255, z: 99}
         members: {}
-        flags: {lightning: deny, sleep: deny, lava-fire: deny, invincible: allow,
-            use: allow, fall-damage: deny, leaf-decay: deny, interact: allow, pvp: deny,
-            chest-access: allow}
+        flags: {sleep: deny, lightning: deny, lava-fire: deny, invincible: allow,
+            use: allow, fall-damage: deny, leaf-decay: deny, interact: allow, chest-access: allow,
+            pvp: deny}
         owners: {}
         type: cuboid
         priority: 0
