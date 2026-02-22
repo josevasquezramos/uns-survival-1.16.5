@@ -32,3 +32,17 @@ items:
     right_click_commands:
       - "[player] warp pvp"
       - "[close]"
+  'warp_casino':
+    display_name: "&b&lCASINO"
+    material: EMERALD
+    slot: 14
+    lore:
+      - " "
+      - "&fHave fun and try your luck"
+      - "&fin our exclusive casino."
+    left_click_commands:
+      - "[player] warp casino"
+      - "[close]"
+    right_click_commands:
+      - "[player] warp casino"
+      - "[close]"

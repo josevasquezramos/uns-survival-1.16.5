@@ -1,0 +1,51 @@
+messages:
+  roulette:
+    chat:
+      wait-until-next-round: "&cYou cannot bet right now! &7Please wait until the next round."
+      do-not-stand-on-table: "&cPlease do not stand on the table!"
+      total-bets: "&7There are a total of &e%bets% &7bets in this round worth &e%worth% coins&7."
+      win: "&aCongratulations! &bYou won &e%amount% coins&b!"
+      lose: "&cUnfortunately, you lost!"
+      broadcast: "&aCongratulations to &e%player% &awho just won &e%amount% coins &aon the casino!"
+      enter-bet: "&ePlease enter the amount you would like to bet. &cClick here to cancel!"
+      minimum-bet-reached-per-entry: "&cYou must at least bet %amount% at a time."
+      maximum-bet-reached-per-round: "&cYou can only bet %amount% at a time."
+      maximum-bets-reached-per-round: "&cYou cannot bet more times this round."
+      maximum-bets-reached-per-day: "&cTo prevent game addiction, you cannot bet more times this day."
+      invalid-amount: "&cYou did not enter a valid amount. If you would like to cancel, click here!"
+      insufficient-money: "&cYou are missing &e%amount% coins &cto bet this amount!"
+      bet-placed: "&aYou bet &e%amount% coins &aon &e%bet%&a! If you win you get &d%multiplier%\u00D7 &ayour bet."
+      bet-canceled: "&cYou canceled your bet!"
+
+    title:
+      win:
+        header: "&aCongratulations"
+        sub: "&bYou won &e%amount% coins&b!"
+      lose:
+        header: " "
+        sub: "&cBetter luck next time!"
+
+    hologram:
+      waiting:
+        - "&b&lCasino"
+        - ""
+        - "&7Right-click on the wheel"
+        - "&7to place a bet!"
+        - ""
+        - "&eWaiting for players..."
+      starting:
+        - "&b&lCasino"
+        - ""
+        - "&7Right-click on the wheel"
+        - "&7to place a bet!"
+        - ""
+        - "&eRolling in &d%time% &eseconds!"
+      rolling:
+        - "&b&lCasino"
+        - ""
+        - "&aGood luck everyone!"
+      ending:
+        - "&b&lCasino"
+        - ""
+        - "&eThe winning number is"
+        - "&d%number%"
