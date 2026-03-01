@@ -12,8 +12,8 @@ location:
   pitch: 8.400014
 type: villager
 properties:
-  look: CLOSEST_PLAYER
   villager_profession: ARMORER
+  look: CLOSEST_PLAYER
 hologram:
   lines: []
 actions:

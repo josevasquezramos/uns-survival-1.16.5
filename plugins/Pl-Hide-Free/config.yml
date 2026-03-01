@@ -1,0 +1,155 @@
+#Don't change | This is NOT the plugin version!
+config_version: 1
+
+debug: false
+
+#OP-protection: Player can only be op'ed if they are in the "allowed-operators" list
+op-protection: false
+allowed-operators:
+  - Player1
+  - Player2
+#If you try to Op someone who isn't in the list
+op-message: "&cThe Player isn't a listed operator!"
+#Players who are operators and are not in the list can't connect and will be deop'ed.
+unauthorized-operator-kick-message: '&cYou are not allowed to be an operator'
+
+#Message if you type a blocked command | Enter none to disable
+#Possible placeholders: {player}, {cmd}
+blocked-command-message: "Unknown command. Type \"/help\" for help."
+#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
+/pl-message: 'Plugins (0):'
+
+#Stay on the newest version to get better features!
+#Enable or disable automatic ingame update notification on join
+update-notify: true
+
+#How many commands a player can send every 2 seconds
+command_spam:
+  amount: 40
+
+groups:
+  # Este es tu grupo base. Aplica a todos por defecto.
+  default:
+    priority: 0
+    inherited-groups: []
+    commands:
+      # --- COMANDOS DE AUTHME ---
+      - login
+      - register
+      - changepassword
+      - logout
+      # --- COMANDOS DE ESSENTIALS ---
+      - balance
+      - bal
+      - money
+      - baltop
+      - delhome
+      - home
+      - homes
+      - msg
+      - tell
+      - w
+      - m
+      - pay
+      - reply
+      - r
+      - sethome
+      - spawn
+      - tpa
+      - tpaccept
+      - tpdeny
+      - warp
+      - warps
+      # --- COMANDOS DE BETTERRTP ---
+      - rtp
+      # --- COMANDOS DE PROTECTIONSTONES ---
+      - ps
+      - protectionstones
+      # --- COMANDOS DE TRABAJOS (JOBS) ---
+      - jobs
+      - job
+      # --- COMANDOS DE TIENDAS Y ECONOMÍA ---
+      - ah
+      - auctionhouse
+      - shop
+      # --- COMANDOS DE ROL / DIVERSIÓN (GSIT) ---
+      - sit
+      # --- COMANDOS DE SKINS ---
+      - skin
+      - skins
+
+  cachimbo:
+    priority: 10
+    inherited-groups: 
+      - default
+    commands:
+      - hat
+      - workbench
+      - wb
+
+  egresado:
+    priority: 20
+    inherited-groups:
+      - default
+      - cachimbo
+    commands:
+      - enderchest
+      - echest
+      - back
+      - return
+      - dispose
+      - trash
+      - condense
+      - compact
+      - ptime
+      - playertime
+      - pweather
+      - playerweather
+
+  rector:
+    priority: 30
+    inherited-groups: 
+      - default
+      - cachimbo
+      - egresado
+    commands:
+      - feed
+      - heal
+      - repair
+      - near
+      - seen
+      - eskull
+      - fly
+
+  defensoria:
+    priority: 100
+    inherited-groups: 
+      - default
+    commands:
+      # --- MODERACIÓN ---
+      - kick
+      - mute
+      - tempban
+      - ban
+      - unban
+      - pardon
+      - seen
+      # --- INVENTARIOS ---
+      - invsee
+      - enderchest
+      - echest
+      # --- TELETRANSPORTE ---
+      - tp
+      - tpo
+      # --- UTILIDADES (ADMIN) ---
+      - vanish
+      - v
+      - god
+
+  #This group will allow all commands
+  #add permission plhide.group.bypass to apply this group
+  bypass:
+    commands: 
+      - "*"
+    priority: 1000
+    inherited-groups: []

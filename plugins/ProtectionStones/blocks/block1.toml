@@ -36,6 +36,7 @@ allow_placing_in_wild = true
         "creeper-explosion deny",
         "wither-damage deny",
         "ghast-fireball deny",
+        "-g members fly allow",
     ]
 
     allowed_flags = [
