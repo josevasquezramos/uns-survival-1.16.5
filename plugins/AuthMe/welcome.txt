@@ -1,1 +1,1 @@
-&eWelcome &b{PLAYER} &eto &c&lUNS &6Survival &eServer
+&eBienvenido &b{PLAYER} &eal servidor &c&lUNS &6Survival

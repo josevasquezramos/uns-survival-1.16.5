@@ -1,8 +1,8 @@
 Hunter:
-  fullname: Hunter
+  fullname: Cazador
   shortname: H
   FullDescription:
-  - "Earns money killing animals and monsters."
+  - "Gana dinero matando animales y monstruos."
   ChatColour: RED
   chat-display: full
   max-level: 200

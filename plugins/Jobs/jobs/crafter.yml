@@ -1,8 +1,8 @@
 Crafter:
-  fullname: Crafter
+  fullname: Creador
   shortname: Cr
   FullDescription:
-  - "Earns money from crafting items."
+  - "Gana dinero crafteando items."
   ChatColour: RED
   chat-display: full
   max-level: 200

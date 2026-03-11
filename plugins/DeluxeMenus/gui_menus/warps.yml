@@ -1,4 +1,4 @@
-menu_title: "Server Warps"
+menu_title: "Warps del Servidor"
 open_command:
   - warp
   - warps
@@ -10,8 +10,8 @@ items:
     slot: 10
     lore:
       - " "
-      - "&fReturn to the main spawn point"
-      - "&fand meet with other players."
+      - "&fRegresa al spawn principal"
+      - "&fy encuéntrate con otros jugadores."
     left_click_commands:
       - "[player] warp lobby"
       - "[close]"
@@ -24,8 +24,8 @@ items:
     slot: 12
     lore:
       - " "
-      - "&fEnter the arena to test your"
-      - "&fskills against other warriors."
+      - "&fEntra a la arena para probar tus"
+      - "&fhabilidades contra otros guerreros."
     left_click_commands:
       - "[player] warp pvp"
       - "[close]"
@@ -38,8 +38,8 @@ items:
     slot: 14
     lore:
       - " "
-      - "&fHave fun and try your luck"
-      - "&fin our exclusive casino."
+      - "&fDiviértete y prueba tu suerte"
+      - "&fen nuestro exclusivo casino."
     left_click_commands:
       - "[player] warp casino"
       - "[close]"

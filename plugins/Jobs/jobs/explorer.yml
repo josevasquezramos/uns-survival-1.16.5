@@ -1,8 +1,8 @@
 Explorer:
-  fullname: Explorer
+  fullname: Explorador
   shortname: Ex
   FullDescription:
-  - "Earns money from exploring map."
+  - "Gana dinero explorando el mapa."
   ChatColour: AQUA
   chat-display: full
   max-level: 200

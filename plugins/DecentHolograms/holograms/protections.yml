@@ -7,6 +7,8 @@ facing: 0.0
 down-origin: false
 pages:
 - lines:
-  - content: '&lProtections'
+  - content: '&lPiedras de'
+    height: 0.3
+  - content: '&lProtección'
     height: 0.3
   actions: {}

@@ -1,8 +1,8 @@
 Miner:
-  fullname: Miner
+  fullname: Minero
   shortname: M
   FullDescription:
-  - "Earns money mining minerals and ores."
+  - "Gana dinero minando minerales y menas."
   ChatColour: DARK_GRAY
   chat-display: full
   max-level: 200

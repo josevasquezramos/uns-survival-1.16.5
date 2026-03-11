@@ -1,8 +1,8 @@
 Woodcutter:
-  fullname: Woodcutter
+  fullname: Leñador
   shortname: W
   FullDescription:
-  - "Earns money felling and planting trees"
+  - "Gana dinero talar y plantar árboles"
   ChatColour: GREEN
   chat-display: full
   max-level: 200

@@ -1,6 +1,6 @@
 type = "GOLD_ORE"
 alias = "16"
-description = "16 block radius protection zone."
+description = "Zona de protección de 16 bloques de radio."
 
 restrict_obtaining = true
 world_list_type = "blacklist"
@@ -29,10 +29,10 @@ allow_placing_in_wild = true
     flags = [
         "pvp deny",
         "tnt deny",
-        "greeting Entering &b%player%'s &fprotected area",
-        "farewell Leaving &b%player%'s &fprotected area",
-        "greeting-action Entering &b%player%'s &fprotected area",
-        "farewell-action Leaving &b%player%'s &fprotected area",
+        "greeting Entrando al área protegida de &b%player%",
+        "farewell Saliendo del área protegida de &b%player%",
+        "greeting-action Entrando al área protegida de &b%player%",
+        "farewell-action Saliendo del área protegida de &b%player%",
         "creeper-explosion deny",
         "wither-damage deny",
         "ghast-fireball deny",
@@ -80,12 +80,12 @@ allow_placing_in_wild = true
     ]
 
 [block_data]
-    display_name = "&6&lGold Protection"
+    display_name = "&6&lPROTECCIÓN DE ORO"
 
     lore = [
         "",
-        "&fProtects a &b16 block &fradius zone.",
-        "&fPrice: &a$40,000",
+        "&fProtege un área de &b16 bloques &fde radio.",
+        "&fPrecio: &a$40,000",
         "",
     ]
 
@@ -131,8 +131,8 @@ allow_placing_in_wild = true
 [event]
     enable = false
     on_region_create = [
-        'global_message: &l%player% created the region %region%!',
+        'global_message: &l¡%player% ha creado la región %region%!',
     ]
     on_region_destroy = [
-        'console_command: say %player% has destroyed region %region%!',
+        'console_command: say ¡%player% ha destruido la región %region%!',
     ]

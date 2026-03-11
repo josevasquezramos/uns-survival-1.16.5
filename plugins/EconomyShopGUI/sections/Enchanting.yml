@@ -11,6 +11,6 @@ nav-bar:
 item:
   material: ENCHANTED_BOOK
   lore:
-  - '&5&lGear up with enchantments!'
-  displayname: '&d&lEnchanting'
-  name: '&d&lEnchanting'
+  - '&5¡Prepárate con encantamientos!'
+  displayname: '&dEncantamiento'
+  name: '&dEncantamiento'

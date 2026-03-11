@@ -41,7 +41,7 @@ config-version: 2.0.1.5
 #----------------------------------------------Language-------------------------------------------------
 
 # Here you can change the language of the plugin.
-language-file: lang-en.yml
+language-file: lang-es.yml
 
 # See this link for all available language files: https://wiki.gpplugins.com/economyshopgui/file-configuration/languages#currently-supported-languages
 
@@ -332,7 +332,7 @@ main-menu:
   gui-rows: 6
   # The fill item for inside the main menu which will fill empty spots
   fill-item:
-    material: GRAY_STAINED_GLASS_PANE
+    material: AIR
     name: ' '
     enable: true
 

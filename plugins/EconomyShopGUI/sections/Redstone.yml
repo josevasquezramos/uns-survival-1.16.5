@@ -11,6 +11,6 @@ nav-bar:
 item:
   material: REDSTONE
   lore:
-  - '&4&lFor all redstone geeks!'
-  displayname: '&c&lRedstone'
-  name: '&c&lRedstone'
+  - '&4Para todos los entusiastas del redstone!'
+  displayname: '&cRedstone'
+  name: '&cRedstone'

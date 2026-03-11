@@ -1,8 +1,8 @@
 Weaponsmith:
-  fullname: Weaponsmith
+  fullname: Armero
   shortname: W
   FullDescription:
-  - "Earns money from crafting and repairing weapons."
+  - "Gana dinero crafteando y reparando armas."
   ChatColour: DARK_PURPLE
   chat-display: full
   max-level: 200

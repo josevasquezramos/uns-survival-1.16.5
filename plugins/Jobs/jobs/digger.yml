@@ -1,8 +1,8 @@
 Digger:
-  fullname: Digger
+  fullname: Excavador
   shortname: D
   FullDescription:
-  - "Earns money for terraforming the world."
+  - "Gana dinero por terraplaneando el mundo."
   ChatColour: GOLD
   chat-display: full
   max-level: 200

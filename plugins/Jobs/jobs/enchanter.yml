@@ -1,8 +1,8 @@
 Enchanter:
-  fullname: Enchanter
+  fullname: Hechicero
   shortname: E
   FullDescription:
-  - "Earns money enchanting weapons."
+  - "Gana dinero encantando armas."
   ChatColour: DARK_BLUE
   chat-display: full
   max-level: 200

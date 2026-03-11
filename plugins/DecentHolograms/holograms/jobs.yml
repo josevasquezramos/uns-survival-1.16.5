@@ -7,6 +7,6 @@ facing: 0.0
 down-origin: false
 pages:
 - lines:
-  - content: '&lJobs'
+  - content: '&lTrabajos'
     height: 0.3
   actions: {}

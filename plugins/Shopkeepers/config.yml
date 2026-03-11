@@ -44,7 +44,7 @@ enable-metrics: true
 
 # Find community translations at https://github.com/Shopkeepers/Language-Files
 # Wiki: https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki/Language-Files
-language: en-default
+language: es
 
 # *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
 # Shopkeeper Data

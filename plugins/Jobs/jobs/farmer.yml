@@ -1,8 +1,8 @@
 Farmer:
-  fullname: Farmer
+  fullname: Granjero
   shortname: Fa
   FullDescription:
-  - "Earns money farming crops."
+  - "Gana dinero cultivando."
   ChatColour: BLUE
   chat-display: full
   max-level: 200

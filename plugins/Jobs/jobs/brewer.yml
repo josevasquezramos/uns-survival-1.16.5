@@ -1,8 +1,8 @@
 Brewer:
-  fullname: Brewer
+  fullname: Alquimista
   shortname: Br
   FullDescription:
-  - "Earns money brewing potions."
+  - "Gana dinero creando pociones."
   ChatColour: LIGHT_PURPLE
   chat-display: full
   max-level: 200
