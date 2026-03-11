@@ -1,0 +1,37 @@
+# 1. EL COMANDO BASE (Este se queda igual, no lo toques)
+evento_base:
+  command: /evento
+  type: TEXT
+  text:
+  - "&cPor favor, usa &e/evento join &co &e/evento leave"
+  register: true
+  tab_completer:
+  - join
+  - leave
+  permission-required: true
+  permission-node: miscomandos.evento
+
+# 2. ENTRAR AL BINGO
+entrar_al_bingo:
+  command: /evento join
+  type: RUN_CONSOLE
+  runcmd:
+  - /mvtp $player bingo
+  - $delay$/sudo $player bingo join
+  permission-required: true
+  permission-node: miscomandos.evento
+  delaytimer: 2
+  delaytimer_format: SECONDS
+
+# 3. SALIR DEL BINGO
+salir_del_bingo:
+  command: /evento leave
+  type: RUN_CONSOLE
+  runcmd:
+  - /sudo $player bingo leave
+  - $delay$/spawn $player
+  - $delay$/gamemode survival $player
+  permission-required: true
+  permission-node: miscomandos.evento
+  delaytimer: 2
+  delaytimer_format: SECONDS

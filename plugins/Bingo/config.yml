@@ -1,0 +1,100 @@
+###########################
+#    Bingo Game Config    #
+#########################################################
+# This file contains all the Bingo game configurations. #
+#########################################################
+lang: en_US
+
+room:
+  # This is the max player count of the Bingo game.
+  max-player: 100
+
+  # This is the min player count to start the game.
+  min-player: 100
+
+  # This is how many players complete needed to instantly end the game.
+  # Suggest value: the max players / 4
+  winner-count: 3
+
+  # This is the time(seconds) to end the game if a player completed.
+  # lower than 1 to disable it.
+  end-time: 300
+
+  # This is the time(seconds) to start the game when the players are enough.
+  # Example:
+  # start-time:
+  #  - "4|300"  -  When the player count is more than 4 (include 4), the game will start in 300 seconds
+  #  - "6|60"  -  When the player count is more than 6 (include 6), the game will start in 60 seconds
+  #  - "8|5"   -  When the player count is more than 8 (include 8), the game will start in 5 seconds
+  # * You need to write at least the min-player time.
+  start-time:
+    - "100|300"
+
+  # Allows player join the game while game are running.
+  join-while-game: true
+
+  # This is the Bingo game's world name. PLEASE check this before you start the game.
+  world-name: bingo
+
+  # This is when the Bingo game ends or someone leaves the game, the world that players will go.
+  main-world: lobby
+
+chat:
+  # This is when a player complete a task, whether it will show in the chat or not.
+  # Available values: true / false
+  complete-task-show: true
+
+  # This is when a player complete the Bingo game, whether it will show in the chat or not.
+  # Available values: true / false
+  complete-game-show: true
+
+game:
+  # The time to be set when the game starts.
+  start-time: 6000
+
+  # This is the no PVP time(second).
+  # lower than 1 to disable it.
+  no-pvp: 300
+
+  # This is how long the world border is. (Blocks)
+  # lower than 1 to disable it.
+  world-border: 3500
+
+  # This is how many chunks will be pre-generated.
+  # lower than 1 to disable it.
+  pre-generate-range: 6
+
+  # This is the max range that player will be teleported randomly at the beginning.
+  # lower than 1 to disable it.
+  random-teleport-range: 800
+
+  # Allows players to open other players' GUI. (bingo.use.gui.others)
+  # Available values: true / false
+  access-to-others-gui: true
+
+  # The start kits player will get.
+  # If you are not familiar with this, you could use in-game commands to config this one.
+  # Use "/bingo config startkits" to get help.
+  startkits: [ ]
+
+
+display:
+  # Change the item list's material.
+  # If the value is FILLED_MAP, the map will show the tasks.
+  item-list-material: FILLED_MAP
+
+server:
+  # If it is true, it will auto start the game when the server is opened and restart when the game is over.
+  # Available values: true / false
+  auto-start-end: false
+
+  # Enable bungee supports.
+  # Available values: true / false
+  bungee: false
+
+  # The server to send after the game ends.
+  # This is used only if auto-start-end is true and bungee is true.
+  lobby-server: world
+
+# Whether generate world when a game start, used for debugging only.
+debug: false

@@ -1,0 +1,201 @@
+############################
+#        Bingo UI          #
+############################
+
+prefix: "&c✦ &lBingo &8» "
+
+world-name: "&3Bingo"
+title-text: "&8✦ &c&lBINGO &8✦\n"
+
+commands:
+  too-many-arguments: "&cToo many arguments."
+  too-less-arguments: "&cMissing arguments."
+  no-permission: "&cYou don't have permission."
+  no-console: "&cPlayers only."
+  unknown-command: "&cUnknown command."
+
+  help:
+    gui: "&7Open the Bingo interface."
+    join: "&7Join the Bingo match."
+    leave: "&7Leave the current match."
+    start: "&7Start a Bingo game."
+    stop: "&7Stop the current game."
+    reload: "&7Reload configuration."
+    config: "&7Modify game settings."
+    no-permission: "&cNo available actions."
+
+  join:
+    success: "&aYou joined the Bingo game. &7({0}/{1})"
+    no-game: "&cNo active game."
+    already-in: "&cYou are already playing."
+    full-players: "&cThe game is full."
+    disallow-join: "&cPlease wait for the next round."
+    game-loading: "&7Preparing the game..."
+
+  leave:
+    success: "&eYou left the Bingo game."
+    no-game: "&cNo active game."
+    not-in: "&cYou are not in the game."
+    game-loading: "&7Preparing the game..."
+
+  start:
+    success: "&aA new Bingo match has begun!"
+    already-running: "&cA game is already running."
+    unable-start: "&cUnable to start the game."
+
+  stop:
+    message: "&cThe Bingo match was stopped by an administrator."
+    no-game: "&cNo active game."
+
+  gui:
+    not-in: "&cYou are not in a Bingo game."
+    other-not-in: "&cThat player is not in the game."
+    no-game: "&cNo active game."
+    not-start: "&cThe match hasn't started yet."
+
+game-restart: "&eRestarting Bingo game..."
+
+errors:
+  task-not-enough: "&cNot enough tasks to generate a board."
+
+gui:
+  title: "&8{0}'s &7Bingo Board"
+
+  complete: "&a✔ Task completed"
+
+  goal-title: "&a&lHOW TO WIN"
+
+  goal-lore: |
+    &7Complete tasks on the board.
+    &7Each task unlocks a square.
+    &7
+    &eCreate a line of 5 squares
+    &e(horizontal, vertical, or diagonal)
+    &eto win the game.
+
+task:
+  item-task:
+    title: "&bCollect {0}"
+    desc: |
+      &7Obtain &e{0}
+      &7to complete the task.
+
+  impossible-task:
+    title: "&7Locked Task"
+    desc: |
+      &7This task cannot
+      &7be completed.
+
+  entity-task:
+
+    kill:
+      title: "&bKill {0}"
+      desc: "&7Defeat &e{0}&7."
+
+    breed:
+      title: "&bBreed {0}"
+      desc: "&7Breed &e{0}&7."
+
+    damage:
+      title: "&bDamage {0}"
+      desc: "&7Deal damage to &e{0}&7."
+
+    drop:
+      title: "&bObtain {1}"
+      desc: "&7Defeat &e{0}&7 and obtain &e{1}&7."
+
+    tame:
+      title: "&bTame {0}"
+      desc: "&7Tame &e{0}&7."
+
+    summon:
+      title: "&bBuild {0}"
+      desc: "&7Construct &e{0}&7."
+
+  hunt-task:
+    title: "&cHunt {0}"
+    desc: |
+      &7Eliminate the target player.
+      &7Your compass will guide you.
+
+scoreboard:
+
+  start-timer:
+    title: "&c&lBINGO"
+    main: |
+      &7Players: &d{0}/{1}
+
+      &a{2}
+
+      &8────────────
+      &c&lUNS &6Survival
+
+    wait-for-people: "Waiting for players..."
+    starting-in: "Starting in {0}s"
+
+  in-game:
+    title: "&c&lBINGO"
+    main: |
+      &eTasks
+
+      {0}
+      {1}
+      {2}
+      {3}
+      {4}
+
+      &8────────────
+      &c&lUNS &6Survival
+
+    completed: "&a■"
+    uncompleted: "&7■"
+
+  end:
+    title: "&c&lBINGO"
+    main: |
+      &d&lGame Over
+
+      {0}
+
+      &8────────────
+      &c&lUNS &6Survival
+
+    player: "&e#{0} &f{1}"
+
+bossbar:
+  pvp-timer: "&ePVP enabled in {0}s"
+  end-timer: "&cGame ends in {0}s"
+  normal: "&aBingo in progress"
+  gameover: "&eGame finished"
+
+title:
+  game-start-title: "&6BINGO"
+  game-start-subtitle: "&7The challenge begins"
+
+  pvp-enabled-title: ""
+  pvp-enabled-subtitle: "&cPVP enabled"
+
+  win-bingo-title: "&aBINGO!"
+  win-bingo-subtitle: "&7You are now spectating"
+
+  gameover-title: "&6Game Over"
+  gameover-subtitle: "&e{0} wins"
+  gameover-nowinner-subtitle: "&7No winner"
+
+item:
+  goal:
+    name: "&aTasks Board"
+    lore: "&7Open the task list"
+
+chat:
+  join: "&a{0} joined &7({1}/{2})"
+  leave: "&c{0} left &7({1}/{2})"
+  task: "&a{0} completed &7[{1}]"
+  back: "&aWelcome back to Bingo"
+  win: "&e#{0} {1} completed Bingo with {2} squares"
+  win-tellraw: "&aBingo! You are now a spectator"
+  not-enough-player: "&cWaiting for more players"
+  wait-for-world: "&7Preparing world..."
+  world-gened: "&aBingo begins!"
+  pvp-timer: "&7PVP in {0}s"
+  pvp-enabled: "&cPVP is now enabled"
