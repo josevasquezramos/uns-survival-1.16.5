@@ -57,16 +57,16 @@ messages:
 # [!] Make sure to fill in database.connectionOptions if you're using certificate / ssl authentication. [!]
 # [!] If you're not using ssl, change sslMode=trust to sslMode=disable [!]
 database:
-    # Database backend selection. Valid values: FILE, MYSQL, POSTGRESQL.
-    type: FILE
-    host: localhost
+    # Cambiamos a MYSQL (usa el driver interno que ya conoces)
+    type: MYSQL
+    host: 127.0.0.1
     port: 3306
-    database: db
-    username: root
-    password: pass
+    database: unsurvival
+    username: unsurvival
+    password: 'unsurvival'
     maxPoolSize: 10
     tablePrefix: sr_
-    connectionOptions: sslMode=trust&serverTimezone=UTC
+    connectionOptions: sslMode=disable&serverTimezone=UTC
 
 ############
 # Commands #

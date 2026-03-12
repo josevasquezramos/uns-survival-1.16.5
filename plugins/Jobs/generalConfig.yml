@@ -10,13 +10,13 @@
 locale-language: es
 storage:
   # storage method, can be MySQL or sqlite
-  method: sqlite
+  method: MySQL
 # Requires Mysql
 mysql:
-  username: root
-  password: ''
+  username: unsurvival
+  password: unsurvival
   hostname: localhost:3306
-  database: minecraft
+  database: unsurvival
   table-prefix: jobs_
   verify-server-certificate: false
   use-ssl: false

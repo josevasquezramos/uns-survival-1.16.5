@@ -1,0 +1,151 @@
+#--------------------------------#
+#     Config for Zstats v3.0+    #
+#--------------------------------#
+#     Developed by: Zerrium      #
+#--------------------------------#
+
+## Database Config (MySQL)
+hostname: 'localhost'
+port: 3306
+database: 'unsurvival'
+username: 'unsurvival'
+# Leave it blank if you don't have database password
+password: 'unsurvival'
+# Leave it blank if you want to use the default database table name.
+# This is useful if you have more than one server instances and you still want to use the same database
+# Do not use space or starting with number (follow table naming rule in SQL)
+table_name_prefix: 'zstats'
+table_name_suffix: ''
+# It is recommended to enable this if you are using remote database and make sure you have installed SSL to the database server to enable this
+use_SSL: false
+
+## DiscordSRV config set to false if you don't have DiscordSRV installed
+notify_stats_update_to_discord: false
+notify_message: 'Player statistics of <player> has been updated. Check it out on https://example.com'
+
+## Others
+use_debug: false #Do not touch if you do not know what this is
+
+## Zerrium's Custom Statistics config
+# Store top 3 (default) items/blocks crafted, mined, placed (if enabled) and mob kills and killed by mobs (if enabled) to database
+# Change to 0 to disable, change to 9999 to display all (not recommended), I recommend you 3 for a large player base server
+zstats_top: 3
+zstats: #change to false to disable
+  # Records how many items crafted, placed, mined and how many kind of items
+  z:crafted: true
+  z:craft_kind: true
+  z:mined: true
+  z:mine_kind: true
+  z:placed: true
+  z:place_kind: true
+
+  # Records how much tools durability points used (vanilla tools only, it can't record custom tools from plugin or mods)
+  z:axe: true
+  z:bow: true
+  z:crossbow: false #1.14+ only
+  z:flint_and_steel: false
+  z:hoe: true
+  z:pickaxe: true
+  z:shears: false
+  z:shield: false #1.9+ only
+  z:shovel: true
+  z:sword: true
+  z:trident: true #1.13+ only
+
+  # Records how long a player has been AFK (requires EssentialsX) set to false if you don't have EssentialsX installed
+  z:afk_time: true
+
+  # Records players' last logout time
+  z:last_played: true
+
+  # Records how many kind of entities killed and killed by them
+  # kind of mobs a player has killed, for the total number of mob, check vanilla_stats MOB_KILLS
+  z:mob_kind: true
+  # kind of mobs have killed a player
+  z:slain_kind: true
+
+  # Records how big is the world save size for each dimensions
+  z:world_size: true #overworld
+  z:nether_size: true #the nether
+  z:end_size: true #the end
+  # Total for all dimensions including custom dimensions (disable if the custom dimension is not from Spigot plugin like Forge)
+  z:total_size: true
+
+## Vanilla stats config, change to false to disable (regenerate this config file if you change your server minecraft version)
+# To check what each of these stats are, read minecraft wiki and SpigotAPI docs: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html
+vanilla_stats:
+  dump: false #Ignore this one and do not touch it!
+  DAMAGE_DEALT: true
+  DAMAGE_TAKEN: true
+  DEATHS: true
+  MOB_KILLS: true
+  PLAYER_KILLS: false
+  FISH_CAUGHT: true
+  ANIMALS_BRED: false
+  LEAVE_GAME: false
+  JUMP: false
+  DROP_COUNT: false
+  PLAY_ONE_MINUTE: true
+  WALK_ONE_CM: true
+  WALK_ON_WATER_ONE_CM: false
+  FALL_ONE_CM: false
+  SNEAK_TIME: false
+  CLIMB_ONE_CM: false
+  FLY_ONE_CM: false
+  WALK_UNDER_WATER_ONE_CM: false
+  MINECART_ONE_CM: false
+  BOAT_ONE_CM: true
+  PIG_ONE_CM: false
+  HORSE_ONE_CM: false
+  SPRINT_ONE_CM: true
+  CROUCH_ONE_CM: true
+  AVIATE_ONE_CM: true
+  TIME_SINCE_DEATH: false
+  TALKED_TO_VILLAGER: true
+  TRADED_WITH_VILLAGER: true
+  CAKE_SLICES_EATEN: false
+  CAULDRON_FILLED: false
+  CAULDRON_USED: false
+  ARMOR_CLEANED: false
+  BANNER_CLEANED: false
+  BREWINGSTAND_INTERACTION: false
+  BEACON_INTERACTION: false
+  DROPPER_INSPECTED: false
+  HOPPER_INSPECTED: false
+  DISPENSER_INSPECTED: false
+  NOTEBLOCK_PLAYED: false
+  NOTEBLOCK_TUNED: false
+  FLOWER_POTTED: false
+  TRAPPED_CHEST_TRIGGERED: false
+  ENDERCHEST_OPENED: false
+  ITEM_ENCHANTED: true
+  RECORD_PLAYED: false
+  FURNACE_INTERACTION: false
+  CRAFTING_TABLE_INTERACTION: false
+  CHEST_OPENED: true
+  SLEEP_IN_BED: true
+  SHULKER_BOX_OPENED: false
+  TIME_SINCE_REST: false
+  SWIM_ONE_CM: false
+  DAMAGE_DEALT_ABSORBED: false
+  DAMAGE_DEALT_RESISTED: false
+  DAMAGE_BLOCKED_BY_SHIELD: false
+  DAMAGE_ABSORBED: false
+  DAMAGE_RESISTED: false
+  CLEAN_SHULKER_BOX: false
+  OPEN_BARREL: false
+  INTERACT_WITH_BLAST_FURNACE: false
+  INTERACT_WITH_SMOKER: false
+  INTERACT_WITH_LECTERN: false
+  INTERACT_WITH_CAMPFIRE: false
+  INTERACT_WITH_CARTOGRAPHY_TABLE: false
+  INTERACT_WITH_LOOM: false
+  INTERACT_WITH_STONECUTTER: false
+  BELL_RING: false
+  RAID_TRIGGER: false
+  RAID_WIN: false
+  INTERACT_WITH_ANVIL: false
+  INTERACT_WITH_GRINDSTONE: false
+  TARGET_HIT: false
+  INTERACT_WITH_SMITHING_TABLE: false
+  STRIDER_ONE_CM: false

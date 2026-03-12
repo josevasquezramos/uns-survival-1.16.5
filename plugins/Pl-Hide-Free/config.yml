@@ -77,6 +77,8 @@ groups:
       # --- COMANDOS DE SKINS ---
       - skin
       - skins
+      # --- CASINO ---
+      - cancelmybet
       # --- COMANDOS DE BINGO ---
       - evento
       - bingo
