@@ -1196,7 +1196,7 @@ pages:
       '296':
         material: OAK_BOAT
         buy: 5.79
-        sell: 1.45
+        sell: 0.10
       '297':
         material: OAK_DOOR
         buy: 2.32

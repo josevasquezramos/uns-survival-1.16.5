@@ -1,0 +1,20 @@
+id: '6'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 93a463d9-a8c0-4115-9ecf-e114eb3262d4
+world: boatracing
+location:
+  x: -142.5
+  y: 6.0
+  z: -93.5
+  yaw: -9.299805
+  pitch: 34.799984
+type: villager
+properties:
+  villager_profession: LIBRARIAN
+  look: PER_PLAYER
+hologram:
+  lines: []
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;Z2l2ZSB7cGxheWVyfSBvYWtfYm9hdCAx;1000;ANY_CLICK;0

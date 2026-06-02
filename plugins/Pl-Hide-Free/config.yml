@@ -6,8 +6,8 @@ debug: false
 #OP-protection: Player can only be op'ed if they are in the "allowed-operators" list
 op-protection: false
 allowed-operators:
-  - Player1
-  - Player2
+  - TobiasMC
+  - django
 #If you try to Op someone who isn't in the list
 op-message: "&cThe Player isn't a listed operator!"
 #Players who are operators and are not in the list can't connect and will be deop'ed.
@@ -65,6 +65,7 @@ groups:
       # --- COMANDOS DE PROTECTIONSTONES ---
       - ps
       - protectionstones
+      - protections
       # --- COMANDOS DE TRABAJOS (JOBS) ---
       - jobs
       - job
@@ -79,11 +80,8 @@ groups:
       - skins
       # --- CASINO ---
       - cancelmybet
-      # --- COMANDOS DE BINGO ---
-      - evento
-      - bingo
 
-  cachimbo:
+  level1:
     priority: 10
     inherited-groups: 
       - default
@@ -92,11 +90,11 @@ groups:
       - workbench
       - wb
 
-  egresado:
+  level2:
     priority: 20
     inherited-groups:
       - default
-      - cachimbo
+      - level1
     commands:
       - enderchest
       - echest
@@ -111,12 +109,12 @@ groups:
       - pweather
       - playerweather
 
-  rector:
+  level3:
     priority: 30
     inherited-groups: 
       - default
-      - cachimbo
-      - egresado
+      - level1
+      - level2
     commands:
       - feed
       - heal
@@ -126,7 +124,7 @@ groups:
       - eskull
       - fly
 
-  defensoria:
+  staff:
     priority: 100
     inherited-groups: 
       - default
@@ -150,6 +148,8 @@ groups:
       - vanish
       - v
       - god
+      - fly
+      - homes
 
   #This group will allow all commands
   #add permission plhide.group.bypass to apply this group
@@ -159,7 +159,7 @@ groups:
     priority: 1000
     inherited-groups: 
       - default
-      - cachimbo
-      - egresado
-      - rector
-      - defensoria
+      - level1
+      - level2
+      - level3
+      - staff

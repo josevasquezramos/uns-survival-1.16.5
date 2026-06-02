@@ -59,3 +59,21 @@ PlayerMapStore:
     - 65
     - 66
     - 67
+  - columns: 4
+    name: Map
+    id: Map-2
+    type: POSTER
+    rows: 3
+    mapsIDs:
+    - 69
+    - 70
+    - 71
+    - 72
+    - 73
+    - 74
+    - 75
+    - 76
+    - 77
+    - 78
+    - 79
+    - 80

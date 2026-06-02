@@ -136,7 +136,7 @@ sold: vendido
 on-screen-title-sold: '&a+%price%'
 on-screen-title-bought: '&c-%price%'
 #CurrencySymbol
-currencysymbol: '%price%€'
+currencysymbol: $%price%
 symbol-pricing-format: '%price%%symbol%'
 named-pricing-format: '%price% &l%currency-format%'
 #XP Currency name format

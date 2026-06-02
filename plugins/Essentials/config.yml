@@ -784,9 +784,9 @@ world-home-permissions: false
 # For more information, visit https://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
   default: 3
-  cachimbo: 7
-  egresado: 15
-  rector: 30
+  level1: 7
+  level2: 15
+  level3: 30
 
 
 # Controls whether players need the permission 'essentials.home.compass' in order to point

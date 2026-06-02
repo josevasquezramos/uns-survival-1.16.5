@@ -7,7 +7,7 @@ lang: en_US
 
 room:
   # This is the max player count of the Bingo game.
-  max-player: 100
+  max-player: 30
 
   # This is the min player count to start the game.
   min-player: 1
@@ -28,8 +28,10 @@ room:
   #  - "8|5"   -  When the player count is more than 8 (include 8), the game will start in 5 seconds
   # * You need to write at least the min-player time.
   start-time:
-    - "1|30"
-    - "100|300"
+    - "3|450"
+    - "5|350"
+    - "10|250"
+    - "20|50"
 
   # Allows player join the game while game are running.
   join-while-game: true

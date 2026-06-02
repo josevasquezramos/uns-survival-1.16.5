@@ -79,8 +79,8 @@ non-player-account:
 
 #The display of the currency
 Currency:
-  singular-name: dollar
-  plural-name: dollars
+  singular-name: ''
+  plural-name: ''
   #Is the balance an integer
   integer-bal: false
   #Method for rounding off excess digits in the amount
@@ -88,7 +88,7 @@ Currency:
   rounding-mode: 0
   thousands-separator: ','
   #%format_balance% indicate the balance after the format
-  display-format: '%balance% %currencyname%'
+  display-format: '$%balance% %currencyname%'
   #Maximum amount (default is maximum)
   max-number: '10000000000000000'
   format-balance:

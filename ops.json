@@ -4,5 +4,17 @@
     "name": "demonshide",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2b597803-463f-3987-97e0-506166a62989",
+    "name": "josevmanu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f9282466-2b47-310f-bb48-380baea9b68d",
+    "name": "django",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

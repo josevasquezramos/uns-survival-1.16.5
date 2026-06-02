@@ -1,6 +1,8 @@
 menu_title: "Piedras de Protección"
 open_command:
   - protections
+  - ps
+  - protectionstones
 size: 27
 items:
   'block_1':

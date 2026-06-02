@@ -46,3 +46,17 @@ items:
     right_click_commands:
       - "[player] warp casino"
       - "[close]"
+  'warp_botes':
+    display_name: "&9&lCARRERA DE BOTES"
+    material: OAK_BOAT
+    slot: 16
+    lore:
+      - " "
+      - "&f¡Demuestra que eres el más rápido!"
+      - "&fCompite contra tus amigos en la pista."
+    left_click_commands:
+      - "[player] warp carreras"
+      - "[close]"
+    right_click_commands:
+      - "[player] warp carreras"
+      - "[close]"

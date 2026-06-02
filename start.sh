@@ -1,5 +1,5 @@
 #!/bin/sh
-java -Xms8G -Xmx8G -DPaper.IgnoreJavaVersion=true \
+java -Xms4G -Xmx4G -DPaper.IgnoreJavaVersion=true \
   -XX:+UseG1GC \
   -XX:+ParallelRefProcEnabled \
   -XX:MaxGCPauseMillis=200 \

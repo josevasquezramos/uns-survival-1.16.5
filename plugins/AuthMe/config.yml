@@ -121,7 +121,7 @@ settings:
     # typical communication with the database to happen synchronously, set this to false
     useAsyncTasks: true
     # The name of the server, used in some placeholders.
-    serverName: Your Minecraft Server
+    serverName: Unsurvival
     restrictions:
         # Can not authenticated players chat?
         # Keep in mind that this feature also blocks all commands not
@@ -203,7 +203,7 @@ settings:
         DenyTabCompleteBeforeLogin: false
         # Should we display all other accounts from a player when he joins?
         # permission: /authme.admin.accounts
-        displayOtherAccounts: true
+        displayOtherAccounts: false
         # Spawn priority; values: authme, essentials, cmi, multiverse, default
         spawnPriority: authme,essentials,cmi,multiverse,default
         # Maximum Login authorized by IP

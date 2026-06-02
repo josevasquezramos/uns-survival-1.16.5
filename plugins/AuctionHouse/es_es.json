@@ -29,7 +29,7 @@
   "duration.seconds": "s",
   "message.active_listings.click": "&aHaz clic aquí para comprar.",
   "message.active_listings.howto.desc1": "&aPara poner un ítem a la venta, solo sostén",
-  "message.active_listings.howto.desc2": "&ael ítem en tu mano y usa &b/ah sell <precio>.",
+  "message.active_listings.howto.desc2": "&ael ítem en tu mano y usa &b/ah vender <precio> <cantidad>.",
   "message.active_listings.info.desc1": "&aEsta es la Casa de Subastas. Aquí puedes",
   "message.active_listings.info.desc2": "&avender tus ítems, y comprar los",
   "message.active_listings.info.desc3": "&aítems que otros han puesto a la venta.",
